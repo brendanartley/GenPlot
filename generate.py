@@ -694,11 +694,11 @@ def create_bars(n, horizontal=False):
             else:
                 print(xs, ys)
         
-        # Reduce precision
-        if isinstance(xs[0], str) == False:
-            xs = reduce_precision(xs)
-        if isinstance(ys[0], str) == False:
-            ys = reduce_precision(ys)
+        # # Reduce precision
+        # if isinstance(xs[0], str) == False:
+        #     xs = reduce_precision(xs)
+        # if isinstance(ys[0], str) == False:
+        #     ys = reduce_precision(ys)
         
         # Sanity check: log data
         if i < VISUALIZE_FIRST_N:
@@ -834,9 +834,9 @@ def create_lines(n):
         if i < VISUALIZE_FIRST_N:
             print(xs, ys)
         
-        # Reduce precision (xs are always categorical)
-        if isinstance(ys[0], str) == False:
-            ys = reduce_precision(ys)
+        # # Reduce precision (xs are always categorical)
+        # if isinstance(ys[0], str) == False:
+        #     ys = reduce_precision(ys)
         
         # Sanity check: log data
         if i < VISUALIZE_FIRST_N:
@@ -1140,9 +1140,9 @@ def create_scatters(n):
         if i < VISUALIZE_FIRST_N:
             print(xs, ys)
         
-        # Reduce precision
-        xs = reduce_precision(xs)
-        ys = reduce_precision(ys)
+        # # Reduce precision
+        # xs = reduce_precision(xs)
+        # ys = reduce_precision(ys)
         
         # Sanity check: log data
         if i < VISUALIZE_FIRST_N:
