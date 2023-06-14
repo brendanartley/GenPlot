@@ -3,6 +3,10 @@
 This repository contains code for [GenPlot: Increasing the Scale and Diversity of Chart Derendering
 Data]().
 
+<h1 align="center">
+<img src="./graph_img.jpg" alt="CipherSniffer Logo" width="500">
+</h1>
+
 ## Getting Started
 
 1. Clone the repository
