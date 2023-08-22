@@ -1,7 +1,7 @@
 ## GenPlot
 
 This repository contains code for [GenPlot: Increasing the Scale and Diversity of Chart Derendering
-Data]().
+Data](https://arxiv.org/abs/2306.11699).
 
 <h1 align="center">
 <img src="./graph_img.jpg" alt="CipherSniffer Logo" width="500">
